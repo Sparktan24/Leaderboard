@@ -1,0 +1,47 @@
+.hello {
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+  border: 1px solid black;
+}
+
+.secondary-title {
+  margin: 0;
+}
+
+li:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.content-container {
+  display: flex;
+  gap: 50px;
+  margin-left: 40px;
+}
+
+.table-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scores-table {
+  padding: 0;
+}
+
+.left-content-container {
+  min-width: 250px;
+}
+
+.right-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  min-width: 200px;
+}
+
+.button-submit {
+  width: 100px;
+  align-self: flex-end;
+}
