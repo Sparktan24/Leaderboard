@@ -13,7 +13,7 @@ module.exports = {
     }),
   ],
   output: {
-    filename: '[name].js', //Change this from main.js
+    filename: '[name].js', // Change this from main.js
     path: path.resolve(__dirname, 'dist'),
   },
   optimization: {
